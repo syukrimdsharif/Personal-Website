@@ -1,0 +1,124 @@
+/* Reset */ /* To reset browser format (edge,firefox,chrome etc..) everything as what we want */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0px;
+}
+
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Main content styles */
+.site-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #D3360B;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Homepage styles , in css we use "." for "class" */
+.site-wrapper.home {
+	background-image: url("images/pattern1.png");
+}
+
+.site-wrapper.about {
+	background-image: url("images/pattern.png");
+}
+
+/* Menu style */
+.site-menu {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.site-menu li {
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+}
+
+.site-menu li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Main Content Picture */
+.main-content {
+  text-align: center;
+}
+
+.main-content h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-content h2 {
+  color: #333333;
+  font-size: 21px;
+}
+
+.user-photo {
+  border: 1px solid white;
+  transition: border-radius 0.5s ease-in;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+
+/* Footer - Social Media */
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.user-social-media {
+  list-style: none;
+  padding: 0px;
+}
+
+.user-social-media li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.user-social-media li a {
+  color: #333333;
+}
+
+.user-description {
+  width: 70%;
+  margin: 60px auto;
+  color: white;
+}
